@@ -9,8 +9,13 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("/bingo.fxml"));
+    public void start(Stage primaryStage) throws Exception {
+        final FXMLLoader loader = new FXMLLoader(getClass().getResource("/bingo.fxml"));
+
+        Parent root = loader.load();
+
+        Controller controller = loader.getController();
+        controller.load(root);
 
         primaryStage.setResizable(false); // unless we want it to be resizable but that will involve messing with components
         primaryStage.setTitle("Scammer Bingo");
