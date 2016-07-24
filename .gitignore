@@ -4,5 +4,9 @@
 .DS_Store
 /build
 /captures
-/app/getaround
 /out/
+.idea/
+/.idea/workspace.xml
+/.idea/libraries
+*.iml
+.idea
