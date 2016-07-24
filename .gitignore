@@ -1,9 +1,5 @@
-*.iml
-.idea
 .gradle
 /local.properties
-/.idea/workspace.xml
-/.idea/libraries
 /target/
 .DS_Store
 /build
