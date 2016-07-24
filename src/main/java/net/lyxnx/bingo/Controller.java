@@ -44,9 +44,9 @@ public class Controller {
     private void updateScore(int score) {
         this.score = score;
 
-        if(score == 16) {
+        if(this.score == 16) {
             scoreLabel.setText("BINGO!");
-            new Thread(() -> new AudioPlayer().play(Main.class.getClass().getResource("/bingo.wav").getFile())).start();
+            new Thread(() -> new AudioPlayer().play(getClass().getResource("/bingo.wav"))).start();
         } else {
             scoreLabel.setText("" + score);
         }

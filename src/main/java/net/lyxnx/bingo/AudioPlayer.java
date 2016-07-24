@@ -1,8 +1,8 @@
 package net.lyxnx.bingo;
 
 import javax.sound.sampled.*;
-import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class AudioPlayer implements LineListener {
 
@@ -15,11 +15,9 @@ public class AudioPlayer implements LineListener {
         }
     }
 
-    void play(String file) {
-        File soundFile = new File(file);
-
+    void play(URL url) {
         try(
-                AudioInputStream ais = AudioSystem.getAudioInputStream(soundFile);
+                AudioInputStream ais = AudioSystem.getAudioInputStream(url);
                 Clip clip = (Clip) AudioSystem.getLine(new DataLine.Info(Clip.class, ais.getFormat()))
         ) {
             clip.addLineListener(this);
