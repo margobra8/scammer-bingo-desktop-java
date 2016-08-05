@@ -6,7 +6,7 @@
 
     <groupId>net.lyxnx</groupId>
     <artifactId>scammer-bingo-desktop-java</artifactId>
-    <version>1.0</version>
+    <version>1.2-SNAPSHOT</version>
 
     <build>
         <plugins>
