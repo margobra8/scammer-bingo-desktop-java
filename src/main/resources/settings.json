@@ -1,0 +1,35 @@
+{
+  "messagesEnabled": false,
+  "messages": {
+    "50": "Halfway there! You can probably rat out the scammer now.",
+    "100": "You have successfully found a scammer!"
+  },
+  "autoReset": false,
+  "autoUpdate": true,
+  "strings": [
+    "Run",
+    "netstat",
+    "Stopped Services",
+    "I can't understand you sir",
+    "Sir",
+    "Do one thing",
+    "cmd",
+    "The scammer knows",
+    "Secure Server",
+    "eventvwr",
+    "Microsoft Certified",
+    "Corrupted Drivers",
+    "tree",
+    "Network Security",
+    "syskey",
+    "Trying to stick to the script",
+    "Fuck off",
+    "hh h",
+    "support.me",
+    "$$$"
+  ],
+  "difficulty": {
+    "rows": 5,
+    "columns": 4
+  }
+}
