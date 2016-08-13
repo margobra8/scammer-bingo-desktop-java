@@ -18,8 +18,8 @@ public class Main extends Application {
         controller.load(root);
 
         primaryStage.setResizable(false); // unless we want it to be resizable but that will involve messing with components
-        primaryStage.setTitle("Scammer Bingo");
-        //primaryStage.getIcons().add(new Image("/icon.png")); TODO add icon
+        primaryStage.setTitle("Scammer Bingo - Java Edition");
+        // primaryStage.getIcons().add(new Image("/bingo.png")); TODO Add icon
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
