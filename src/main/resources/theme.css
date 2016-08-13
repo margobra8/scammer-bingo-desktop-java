@@ -4,12 +4,14 @@
     -fx-background-insets: 0 0 0 0, 0, 1, 2;
     -fx-border-color: #000000;
     -fx-border-width: 0.1;
-    -fx-background-color: #bfbfbf;
+    -fx-background-color:
+    	linear-gradient(#eeeeee 0%, #cccccc 100%);
     -fx-text-alignment: center;
 }
 
 .button:pressed {
-    -fx-background-color: #878787;
+    -fx-background-color:
+    	linear-gradient(#cccccc 0%, #eeeeee 100%);
 }
 
 .label {
@@ -17,14 +19,15 @@
     -fx-text-fill: white;
     -fx-background-radius: 0;
     -fx-border-insets: 0 0 0 0, 0, 1, 2;
-    -fx-border-color: black;
+    -fx-border-color: #eeeeee;
     -fx-border-width: 0.1;
 }
 
 .button:disabled {
-    -fx-background-color: #878787;
+    -fx-background-color: #fff;
 }
 
 .root {
-    -fx-background-color: rgba(75, 75, 75, .90);
+    -fx-background-image: url("http://wallpapercave.com/wp/htLRBQ4.jpg");
+    -fx-background-size: cover;
 }
