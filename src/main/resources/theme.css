@@ -28,6 +28,6 @@
 }
 
 .root {
-    -fx-background-image: url("http://i.imgur.com/TI1KJrU.jpg");
+    -fx-background-image: url("bg.jpg");
     -fx-background-size: cover;
 }
